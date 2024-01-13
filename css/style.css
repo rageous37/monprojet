@@ -1,0 +1,45 @@
+.gradient-background {
+  background: linear-gradient(300deg, #0084ff, #0805b1, #026a8a);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.moi {
+  border-radius: 50%;
+}
+
+.arriere-plan {
+  background-color: #00bfff;
+}
+
+.liste {
+  padding: 0;
+  margin: 0;
+
+}
+
+.liste li {
+  text-align: justify;
+  padding: 10px;
+}
+
+.icon-square {
+  
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  
+}
